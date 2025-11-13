@@ -15,7 +15,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
             <!--Left col-->
             <div class="flex-col justify-start items-start gap-5 inline-flex hover-up">
-                <a href="single.html" class="rounded-3xl overflow-hidden max-h-[370px]">
+                <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                    class="rounded-3xl overflow-hidden max-h-[370px]">
                     <img src="assets/photo/hero-4.png" />
                 </a>
                 <div class="flex-col justify-start items-start gap-3.5 flex">
@@ -33,7 +34,8 @@
                         </div>
                     </div>
                     <h3><a class="text-neutral-950 dark:text-neutral-dark-950 text-2xl font-bold leading-snug item-link"
-                            href="single.html">Brushstrokes of Life: A Creative Journey Unveiled</a></h3>
+                            href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Brushstrokes of Life: A Creative
+                            Journey Unveiled</a></h3>
                     <p
                         class="text-neutral-700 text-sm md:text-base font-medium leading-relaxed dark:text-neutral-dark-600">
                         Discover the narrative woven through each brushstroke, portraying the delicate dance between
@@ -48,7 +50,8 @@
                 <div
                     class="w-full border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start gap-2.5 inline-flex hover-up">
                     <div class="justify-start items-center gap-8 flex flex-col md:flex-row">
-                        <a href="single.html" class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
+                        <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                            class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
                             <img src="assets/photo/hero-5.png" />
                         </a>
                         <div class="flex-col gap-4 inline-flex items-start">
@@ -67,7 +70,8 @@
                             </div>
                             <h3 class="text-start mb-4 md-mb-0">
                                 <a class="text-neutral-950 dark:text-neutral-dark-950 text-2xl font-bold leading-snug item-link"
-                                    href="single.html">Mindful Living: Practices for a Balanced Life</a>
+                                    href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Mindful Living:
+                                    Practices for a Balanced Life</a>
                             </h3>
                         </div>
                     </div>
@@ -77,7 +81,8 @@
                 <div
                     class="w-full border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start gap-2.5 inline-flex hover-up">
                     <div class="justify-start items-center gap-8 flex flex-col md:flex-row">
-                        <a href="single.html" class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
+                        <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                            class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
                             <img src="assets/photo/hero-6.png" />
                         </a>
                         <div class="flex-col gap-4 inline-flex items-start">
@@ -96,7 +101,8 @@
                             </div>
                             <h3 class="text-start mb-4 md-mb-0">
                                 <a class="text-neutral-950 dark:text-neutral-dark-950 text-2xl font-bold leading-snug item-link"
-                                    href="single.html">Exploring Quantum Computing: A Paradigm Shift</a>
+                                    href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Exploring Quantum
+                                    Computing: A Paradigm Shift</a>
                             </h3>
                         </div>
                     </div>
@@ -106,7 +112,8 @@
                 <div
                     class="w-full border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start gap-2.5 inline-flex hover-up">
                     <div class="justify-start items-center gap-8 flex flex-col md:flex-row">
-                        <a href="single.html" class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
+                        <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                            class="rounded-[18px] overflow-hidden max-h-36 md:max-w-48">
                             <img src="assets/photo/hero-7.png" />
                         </a>
                         <div class="flex-col gap-4 inline-flex items-start">
@@ -125,7 +132,8 @@
                             </div>
                             <h3 class="text-start mb-4 md-mb-0">
                                 <a class="text-neutral-950 dark:text-neutral-dark-950 text-2xl font-bold leading-snug item-link"
-                                    href="single.html">Emerging Trends in Renewable Energy: A Green Future</a>
+                                    href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Emerging Trends in
+                                    Renewable Energy: A Green Future</a>
                             </h3>
                         </div>
                     </div>

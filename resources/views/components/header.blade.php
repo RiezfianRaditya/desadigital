@@ -2,8 +2,9 @@
     <div class="container flex justify-between items-center relative px-4">
         <h1>
             <a href="{{ url('/') }}">
-                <img src="assets/photo/logo-desa.png" width="200px" alt="logo" class="shrink-0 relative dark:hidden">
-                <img src="assets/photo/logo-desa.png" width="200px" alt="logo"
+                <img src="{{ url('') }}/assets/photo/logo-desa.png" width="200px" alt="logo"
+                    class="shrink-0 relative dark:hidden">
+                <img src="{{ url('') }}/assets/photo/logo-desa.png" width="200px" alt="logo"
                     class="shrink-0 relative hidden dark:inline-block">
             </a>
         </h1>
@@ -43,7 +44,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-01.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-01.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -59,7 +60,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-02.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-02.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -78,7 +79,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-03.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-03.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -94,7 +95,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-04.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-04.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -113,7 +114,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-05.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-05.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -129,7 +130,7 @@
                             <div class="flex gap-6 content-center hover-up">
                                 <div class="max-w-28">
                                     <a class="inline-block md:mb-0 overflow-hidden rounded-2xl" href="single.html">
-                                        <img src="assets/imgs/pages/thumb-06.png" alt="ideko">
+                                        <img src="{{ url('') }}/assets/imgs/pages/thumb-06.png" alt="ideko">
                                     </a>
                                 </div>
                                 <div class="flex flex-col gap-3">
@@ -159,7 +160,7 @@
                             data-lang="en">
                             <div class="language__link flex gap-2 items-center">
                                 <img class="language__img size-6" alt="en"
-                                    src="assets/imgs/template/flag-england.svg" />
+                                    src="{{ url('') }}/assets/imgs/template/flag-england.svg" />
                                 <span
                                     class="language__text text-sm text-neutral-700 dark:text-neutral-dark-300">English</span>
                             </div>
@@ -167,7 +168,7 @@
                         <div class="language__el bg-neutral-0 dark:bg-neutral-dark-0 cursor-pointer" data-lang="fr">
                             <div class="language__link flex gap-2 items-center">
                                 <img class="language__img size-6" alt="fr"
-                                    src="assets/imgs/template/flag-france.svg" />
+                                    src="{{ url('') }}/assets/imgs/template/flag-france.svg" />
                                 <span
                                     class="language__text text-sm text-neutral-700 dark:text-neutral-dark-300">French</span>
                             </div>
@@ -178,15 +179,16 @@
             </div> --}}
 
             <div class="dark-light cursor-pointer flex relative z-20">
-                <img src="assets/imgs/template/icon-dark-light.svg" alt="dark/light" class="dark:hidden">
-                <img src="assets/imgs/template/icon-dark-light-white.svg" alt="dark/light"
+                <img src="{{ url('') }}/assets/imgs/template/icon-dark-light.svg" alt="dark/light"
+                    class="dark:hidden">
+                <img src="{{ url('') }}/assets/imgs/template/icon-dark-light-white.svg" alt="dark/light"
                     class="hidden dark:inline-block">
             </div>
             <div class="search-box flex relative py-4 z-20">
                 <div class="search-icon cursor-pointer flex pr-2">
-                    <img src="assets/imgs/template/icon-search.svg" alt="dark/light"
+                    <img src="{{ url('') }}/assets/imgs/template/icon-search.svg" alt="dark/light"
                         class="shrink-0 relative dark:hidden">
-                    <img src="assets/imgs/template/icon-search-white.svg" alt="dark/light"
+                    <img src="{{ url('') }}/assets/imgs/template/icon-search-white.svg" alt="dark/light"
                         class="shrink-0 relative hidden dark:inline-block">
                 </div>
                 <div
@@ -273,9 +275,9 @@
                     <div class="flex flex-col h-full">
                         <h1 class="pt-2 pb-6">
                             <a href="{{ url('/') }}">
-                                <img src="assets/imgs/template/logo.svg" alt="logo"
+                                <img src="{{ url('') }}/assets/imgs/template/logo.svg" alt="logo"
                                     class="shrink-0 relative dark:hidden">
-                                <img src="assets/imgs/template/logo-white.svg" alt="logo"
+                                <img src="{{ url('') }}/assets/imgs/template/logo-white.svg" alt="logo"
                                     class="shrink-0 relative hidden dark:inline-block">
                             </a>
                         </h1>

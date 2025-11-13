@@ -17,7 +17,8 @@
               <div
                   class="w-full rounded-3xl border-2 border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start inline-flex  hover-up">
                   <div class="justify-start items-center gap-4 flex flex-col">
-                      <a href="single.html" class="rounded-[18px] overflow-hidden max-h-[180px]">
+                      <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                          class="rounded-[18px] overflow-hidden max-h-[180px]">
                           <img src="assets/photo/hero-1.png" />
                       </a>
                       <div class="p-4 flex-col gap-4 inline-flex items-center md:items-start">
@@ -36,7 +37,8 @@
                           </div>
                           <h3 class="text-center md:text-start mb-4 md-mb-0">
                               <a class="text-neutral-950 dark:text-neutral-dark-950 text-lg font-bold leading-tight item-link"
-                                  href="single.html">Globetrotting in Style: A Journey Through My Lens</a>
+                                  href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Globetrotting in Style: A
+                                  Journey Through My Lens</a>
                           </h3>
                       </div>
                   </div>
@@ -44,7 +46,8 @@
               <div
                   class="w-full rounded-3xl border-2 border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start inline-flex  hover-up">
                   <div class="justify-start items-center gap-4 flex flex-col">
-                      <a href="single.html" class="rounded-[18px] overflow-hidden max-h-[180px]">
+                      <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                          class="rounded-[18px] overflow-hidden max-h-[180px]">
                           <img src="assets/photo/hero-2.png" />
                       </a>
                       <div class="p-4 flex-col gap-4 inline-flex items-center md:items-start">
@@ -63,7 +66,8 @@
                           </div>
                           <h3 class="text-center md:text-start mb-4 md-mb-0">
                               <a class="text-neutral-950 dark:text-neutral-dark-950 text-lg font-bold leading-tight item-link"
-                                  href="single.html">Innovation in Space Exploration: New Frontiers</a>
+                                  href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Innovation in Space
+                                  Exploration: New Frontiers</a>
                           </h3>
                       </div>
                   </div>
@@ -71,7 +75,8 @@
               <div
                   class="w-full rounded-3xl border-2 border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start inline-flex  hover-up">
                   <div class="justify-start items-center gap-4 flex flex-col">
-                      <a href="single.html" class="rounded-[18px] overflow-hidden max-h-[180px]">
+                      <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                          class="rounded-[18px] overflow-hidden max-h-[180px]">
                           <img src="assets/photo/hero-3.png" />
                       </a>
                       <div class="p-4 flex-col gap-4 inline-flex items-center md:items-start">
@@ -90,7 +95,8 @@
                           </div>
                           <h3 class="text-center md:text-start mb-4 md-mb-0">
                               <a class="text-neutral-950 dark:text-neutral-dark-950 text-lg font-bold leading-tight item-link"
-                                  href="single.html">Wildlife Conservation: Preserving Biodiversity</a>
+                                  href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Wildlife Conservation:
+                                  Preserving Biodiversity</a>
                           </h3>
                       </div>
                   </div>
@@ -98,7 +104,8 @@
               <div
                   class="w-full rounded-3xl border-2 border-neutral-300 dark:border-neutral-dark-300 flex-col justify-start items-start inline-flex  hover-up">
                   <div class="justify-start items-center gap-4 flex flex-col">
-                      <a href="single.html" class="rounded-[18px] overflow-hidden max-h-[180px]">
+                      <a href="{{ route('berita-detail', ['slug' => 'berita-1']) }}"
+                          class="rounded-[18px] overflow-hidden max-h-[180px]">
                           <img src="assets/photo/hero-4.png" />
                       </a>
                       <div class="p-4 flex-col gap-4 inline-flex items-center md:items-start">
@@ -117,7 +124,8 @@
                           </div>
                           <h3 class="text-center md:text-start mb-4 md-mb-0">
                               <a class="text-neutral-950 dark:text-neutral-dark-950 text-lg font-bold leading-tight item-link"
-                                  href="single.html">Urban Gardening: Growing Plants in the Concrete Jungl</a>
+                                  href="{{ route('berita-detail', ['slug' => 'berita-1']) }}">Urban Gardening: Growing
+                                  Plants in the Concrete Jungl</a>
                           </h3>
                       </div>
                   </div>
