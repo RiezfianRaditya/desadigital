@@ -150,7 +150,7 @@
             <li class="relative"><a href="page-contact.html" class="menu-item">Layanan</a></li>
         </ul>
         <div class="flex justify-end align-middle content-center items-center relative gap-4">
-            <div class="language-switcher py-4 relative z-10">
+            {{-- <div class="language-switcher py-4 relative z-10">
                 <!-- BEGIN: Language Select Box -->
                 <div class="relative size-6 z-10">
                     <div
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <!-- END: Language Select Box -->
-            </div>
+            </div> --}}
 
             <div class="dark-light cursor-pointer flex relative z-20">
                 <img src="assets/imgs/template/icon-dark-light.svg" alt="dark/light" class="dark:hidden">

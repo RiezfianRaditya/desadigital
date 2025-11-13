@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IDEKO - Personal Blog TailwindCSS Template</title>
+    <title>Lirung Ubing - Long Pahangai - Mahakam Ulu</title>
     <link rel="icon" href="assets/imgs/template/favicon.svg" type="image/svg+xml" />
     <script src="assets/js/vendors/color-modes.js"></script>
     <link rel="preconnect" href="https://fonts.bunny.net">
