@@ -18,7 +18,9 @@
     "APP_DEBUG": "false",
     "LOG_CHANNEL": "stderr",
     "CACHE_DRIVER": "array",
-    "APP_URL": "https://desadigital-gilt.vercel.app/",
-    "SESSION_DRIVER": "cookie"
+    "APP_URL": "https://desadigital-gilt.vercel.app",
+    "SESSION_DRIVER": "cookie",
+
+    "VIEW_COMPILED_PATH": "/tmp/views"
   }
 }
