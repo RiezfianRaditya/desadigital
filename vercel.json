@@ -3,8 +3,12 @@
   "framework": null,
   "builds": [
     {
-      "src": "/public/index.php",
-      "use": "vercel-php@0.7.1"
+      "src": "public/index.php",
+      "use": "@vercel/php@0.7.1"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -16,11 +20,10 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "APP_URL": "https://desadigital-gilt.vercel.app",
     "LOG_CHANNEL": "stderr",
     "CACHE_DRIVER": "array",
-    "APP_URL": "https://desadigital-gilt.vercel.app",
     "SESSION_DRIVER": "cookie",
-
     "VIEW_COMPILED_PATH": "/tmp/views"
   }
 }
